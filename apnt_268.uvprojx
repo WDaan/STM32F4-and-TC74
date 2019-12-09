@@ -408,11 +408,6 @@
               <FilePath>.\GUI_SingleThread.c</FilePath>
             </File>
             <File>
-              <FileName>BubblesortDLG.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\RTE\Graphics\BubblesortDLG.c</FilePath>
-            </File>
-            <File>
               <FileName>util.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\util.c</FilePath>
@@ -421,6 +416,11 @@
               <FileName>util.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\util.h</FilePath>
+            </File>
+            <File>
+              <FileName>TemperatuurDLG.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Graphics\TemperatuurDLG.c</FilePath>
             </File>
           </Files>
         </Group>

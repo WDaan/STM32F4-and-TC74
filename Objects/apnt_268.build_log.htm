@@ -22,20 +22,60 @@ Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
 C:\Users\daanw\OneDrive - Hogeschool VIVES\School\1-2e Bach\Sem1\Microcontrollers 2\STM32CUBE_Projects\Project 4 - GUI & TEMP\apnt_268.uvprojx
-Project File Date:  11/26/2019
+Project File Date:  12/09/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
 compiling Timer.c...
+util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
+  void State_Init();
+util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
+  void setSuccessMessage();
+util.h(18): warning:  #1-D: last line of file ends without a newline
+  } State;
 Timer.c(4): warning:  #177-D: variable "timer_cnt"  was declared but never referenced
    static int timer_cnt = 0;
-Timer.c: 1 warning, 0 errors
+Timer.c: 4 warnings, 0 errors
 compiling GUI_SingleThread.c...
-compiling BubblesortDLG.c...
+.\RTE\CMSIS\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
+  void State_Init();
+.\RTE\CMSIS\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
+  void setSuccessMessage();
+.\RTE\CMSIS\../../util.h(18): warning:  #1-D: last line of file ends without a newline
+  } State;
+GUI_SingleThread.c: 3 warnings, 0 errors
+compiling TemperatuurDLG.c...
+RTE\Graphics\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
+  void State_Init();
+RTE\Graphics\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
+  void setSuccessMessage();
+RTE\Graphics\../../util.h(18): warning:  #1-D: last line of file ends without a newline
+  } State;
+RTE\Graphics\TemperatuurDLG.c(182): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "value"  (declared at line 186)
+        switch(NCode) {
+        ^
+RTE\Graphics\TemperatuurDLG.c(206): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "value"  (declared at line 210)
+        switch(NCode) {
+        ^
+RTE\Graphics\TemperatuurDLG.c: 5 warnings, 0 errors
+compiling util.c...
+util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
+  void State_Init();
+util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
+  void setSuccessMessage();
+util.h(18): warning:  #1-D: last line of file ends without a newline
+  } State;
+util.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+    if (ptrI2C->GetDataCount() != 1) return -1;
+util.c(39): warning:  #68-D: integer conversion resulted in a change of sign
+    if (ptrI2C->GetDataCount() != 1) return -1;
+util.c: 5 warnings, 0 errors
 linking...
-Program Size: Code=122028 RO-data=11100 RW-data=9008 ZI-data=42104  
-".\Objects\apnt_268.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=131264 RO-data=25564 RW-data=9248 ZI-data=42120  
+".\Objects\apnt_268.axf" - 0 Error(s), 17 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -275,7 +315,7 @@ Package Vendor: Keil
       Source file:   emWin\Sample\GUI_X\GUI_X_Touch.c
 
    * Component: Segger.MDK-Plus::Graphics:Tools:GUI Builder:5.50.0
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:07
 </pre>
 </body>
 </html>

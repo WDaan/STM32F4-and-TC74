@@ -22,10 +22,6 @@
 // USER END
 
 #include "DIALOG.h"
-#include "../../util.h"
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 /*********************************************************************
 *
@@ -51,7 +47,6 @@
 */
 
 // USER START (Optionally insert additional static data)
-uint8_t nums[ARR_SIZE];
 // USER END
 
 /*********************************************************************
@@ -67,7 +62,6 @@ static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
   // USER END
 };
 
-extern uint8_t temperature_response;
 /*********************************************************************
 *
 *       Static code

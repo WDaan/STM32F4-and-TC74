@@ -2,7 +2,7 @@
 #include "util.h"
  #include "Board_LED.h" 
  static int timer_cnt = 0;
- uint8_t temperature_response;
+extern State state;
 /*----------------------------------------------------------------------------
  *      Timer: Sample timer functions
  *---------------------------------------------------------------------------*/
@@ -27,7 +27,7 @@ static uint32_t  exec2;                                         // argument for 
 // Periodic Timer Example
 static void Timer2_Callback (void const *arg) {
   // add user code here
-	 getTemp(&temperature_response);	
+	 getTemp(&state.temperature);	
 }
  
 // Example: Create and Start timers

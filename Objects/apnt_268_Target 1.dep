@@ -36,11 +36,55 @@ I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM3
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x5C5BE55A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board\Board_LED.h)(0x5D1471CA)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
-F (.\Timer.c)(0x5DEE12AC)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (.\Timer.c)(0x5DEE7C1E)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBCE42)
-I (util.h)(0x5DE533B6)
+I (util.h)(0x5DEE889F)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\dialog.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_ConfDefaults.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUIConf.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Type.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LCD.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\Global.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM_GUI.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Version.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\BUTTON.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\DIALOG_Intern.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WIDGET.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM_Intern.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Private.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LCD_Protected.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Debug.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SCROLLBAR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CALENDAR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CHECKBOX.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CHOOSECOLOR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CHOOSEFILE.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\DROPDOWN.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LISTBOX.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\EDIT.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\FRAMEWIN.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GRAPH.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\HEADER.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\ICONVIEW.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\IMAGE.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\KNOB.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LISTVIEW.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LISTWHEEL.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\MENU.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\MULTIEDIT.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\MULTIPAGE.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\PROGBAR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\RADIO.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\ROTARY.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SLIDER.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SPINBOX.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SWIPELIST.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TEXT.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TREEVIEW.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board\Board_LED.h)(0x5D1471CA)
 F (.\Thread.c)(0x5DEE0BB7)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
@@ -84,7 +128,7 @@ I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include\
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include\usb_msc.h)(0x5D147462)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include\usb_ms.h)(0x5D147462)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include\rl_fs.h)(0x5D146D34)
-F (.\GUI_SingleThread.c)(0x5DEE12C1)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\gui_singlethread.o --omf_browse .\objects\gui_singlethread.crf --depend .\objects\gui_singlethread.d)
+F (.\GUI_SingleThread.c)(0x5DEE7BFB)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\gui_singlethread.o --omf_browse .\objects\gui_singlethread.crf --depend .\objects\gui_singlethread.d)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBCE42)
@@ -97,6 +141,7 @@ I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Includ
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Version.h)(0x5D27010A)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBCE42)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+I (.\RTE\CMSIS\../../util.h)(0x5DEE889F)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\dialog.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM_GUI.h)(0x5D27010A)
@@ -134,8 +179,18 @@ I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Includ
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SWIPELIST.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TEXT.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TREEVIEW.h)(0x5D27010A)
-F (.\RTE\Graphics\BubblesortDLG.c)(0x5DEE12AE)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\bubblesortdlg.o --omf_browse .\objects\bubblesortdlg.crf --depend .\objects\bubblesortdlg.d)
-I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\DIALOG.h)(0x5D27010A)
+F (.\util.c)(0x5DEE88A2)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\util.o --omf_browse .\objects\util.crf --depend .\objects\util.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBCE42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBCE42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBCE42)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBCE36)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include\Driver_I2C.h)(0x5C8A78DC)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include\Driver_Common.h)(0x5C8A78DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBCE3E)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\dialog.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_ConfDefaults.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUIConf.h)(0x5D27010A)
@@ -144,7 +199,6 @@ I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Includ
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\Global.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM_GUI.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI.h)(0x5D27010A)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBCE42)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Version.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\BUTTON.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\DIALOG_Intern.h)(0x5D27010A)
@@ -180,24 +234,57 @@ I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Includ
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SWIPELIST.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TEXT.h)(0x5D27010A)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TREEVIEW.h)(0x5D27010A)
-I (RTE\Graphics\../../util.h)(0x5DE533B6)
-I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBCE42)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBCE42)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
-F (.\util.c)(0x5DEE0898)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\util.o --omf_browse .\objects\util.crf --depend .\objects\util.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBCE42)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBCE42)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+I (util.h)(0x5DEE889F)
+F (.\util.h)(0x5DEE889F)()
+F (.\RTE\Graphics\TemperatuurDLG.c)(0x5DEE8948)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\temperatuurdlg.o --omf_browse .\objects\temperatuurdlg.crf --depend .\objects\temperatuurdlg.d)
+I (RTE\Graphics\../../util.h)(0x5DEE889F)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F6BF8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBCE42)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBCE36)
-I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include\Driver_I2C.h)(0x5C8A78DC)
-I (C:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include\Driver_Common.h)(0x5C8A78DC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBCE3E)
-F (.\util.h)(0x5DE533B6)()
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\dialog.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_ConfDefaults.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUIConf.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Type.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LCD.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\Global.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM_GUI.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Version.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\BUTTON.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\DIALOG_Intern.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WIDGET.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\WM_Intern.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Private.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LCD_Protected.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI_Debug.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SCROLLBAR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CALENDAR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CHECKBOX.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CHOOSECOLOR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\CHOOSEFILE.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\DROPDOWN.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LISTBOX.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\EDIT.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\FRAMEWIN.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GRAPH.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\HEADER.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\ICONVIEW.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\IMAGE.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\KNOB.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LISTVIEW.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\LISTWHEEL.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\MENU.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\MULTIEDIT.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\MULTIPAGE.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\PROGBAR.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\RADIO.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\ROTARY.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SLIDER.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SPINBOX.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SWIPELIST.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TEXT.h)(0x5D27010A)
+I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TREEVIEW.h)(0x5D27010A)
 F (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\MDK\Boards\ST\STM32F429I-Discovery\Common\LCD_X.c)(0x5D270650)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F429ZITx-I.\RTE\_Target_1-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\RTX\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\Board-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\FileSystem\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\USB\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Users\daanw\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx -DHSE_VALUE="8000000" -DDATA_IN_ExtSDRAM -DSTM32F429I_DISCOVERY-o .\objects\lcd_x.o --omf_browse .\objects\lcd_x.crf --depend .\objects\lcd_x.d)
 I (C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\GUI.h)(0x5D27010A)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBCE42)

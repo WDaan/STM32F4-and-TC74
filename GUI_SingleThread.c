@@ -3,10 +3,12 @@
 #include "GUI.h"
 #include <string.h>
 #include <stdio.h>
-
+#include "../../util.h"
 #include "dialog.h"
-extern WM_HWIN CreateBubblesort(void);
-extern uint8_t temperature_response;
+extern WM_HWIN CreateTemperatuur(void);
+extern State state;
+WM_HWIN MainhWin;
+
 
 /*----------------------------------------------------------------------------
  *      GUIThread: GUI Thread for Single-Task Execution Model
@@ -37,16 +39,16 @@ __NO_RETURN static void GUIThread (void *argument) {
   (void)argument;
 
   GUI_Init();           /* Initialize the Graphics Component */
-
+	State_Init();
   /* Add GUI setup code here */
 	//GUI_DispString("Hello World!");
-	 WM_HWIN hWin=CreateBubblesort();
+	 MainhWin=CreateTemperatuur();
 	
   while (1) {
     char str[12];
-		sprintf(str, "%d", temperature_response);
+		sprintf(str, "%d", state.temperature);
 		
-    WM_HWIN hItem = WM_GetDialogItem(hWin, 0x807);
+    WM_HWIN hItem = WM_GetDialogItem(MainhWin, 0x802);
     TEXT_SetText(hItem, str);
     /* All GUI related activities might only be called from here */  
 		GUI_Exec();         /* Execute all GUI jobs ... Return 0 if nothing was done. */	
