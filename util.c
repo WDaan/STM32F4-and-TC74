@@ -40,6 +40,14 @@ uint32_t getTemp(uint8_t *val) {
   return 0;
 }
 
+void handleTemperature(){
+	if(state.fan_mode == 0 && state.temperature > state.desired){ //too hot
+		setFanState(1);
+	}else if(state.fan_mode == 0 && state.temperature < state.desired){ //too cold || good
+		setFanState(0);
+	}
+};
+
 void setTextInt(TEXT_Handle hObj, const uint8_t val){
 	char str[12];
 	sprintf(str, "%d", val);

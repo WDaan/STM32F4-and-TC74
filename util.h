@@ -9,6 +9,7 @@ void State_Init();
 void setFanState(uint8_t state);
 void setInfoMessage(const char * str);
 void setSuccessMessage();
+void handleTemperature();
 
 typedef struct{
 	uint8_t fan_mode; //auto = 0, manual = 1

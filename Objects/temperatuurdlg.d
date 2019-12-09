@@ -49,3 +49,4 @@
 .\objects\temperatuurdlg.o: C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\SWIPELIST.h
 .\objects\temperatuurdlg.o: C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TEXT.h
 .\objects\temperatuurdlg.o: C:\Users\daanw\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.9.0\emWin\Include\TREEVIEW.h
+.\objects\temperatuurdlg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

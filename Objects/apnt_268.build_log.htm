@@ -32,50 +32,58 @@ util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
   void State_Init();
 util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
   void setSuccessMessage();
-util.h(18): warning:  #1-D: last line of file ends without a newline
+util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
+  void handleTemperature();
+util.h(19): warning:  #1-D: last line of file ends without a newline
   } State;
 Timer.c(4): warning:  #177-D: variable "timer_cnt"  was declared but never referenced
    static int timer_cnt = 0;
-Timer.c: 4 warnings, 0 errors
-compiling GUI_SingleThread.c...
-.\RTE\CMSIS\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
-  void State_Init();
-.\RTE\CMSIS\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
-  void setSuccessMessage();
-.\RTE\CMSIS\../../util.h(18): warning:  #1-D: last line of file ends without a newline
-  } State;
-GUI_SingleThread.c: 3 warnings, 0 errors
+Timer.c: 5 warnings, 0 errors
 compiling TemperatuurDLG.c...
 RTE\Graphics\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
   void State_Init();
 RTE\Graphics\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
   void setSuccessMessage();
-RTE\Graphics\../../util.h(18): warning:  #1-D: last line of file ends without a newline
+RTE\Graphics\../../util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
+  void handleTemperature();
+RTE\Graphics\../../util.h(19): warning:  #1-D: last line of file ends without a newline
   } State;
-RTE\Graphics\TemperatuurDLG.c(182): warning:  #546-D: transfer of control bypasses initialization of:
-            variable "value"  (declared at line 186)
+RTE\Graphics\TemperatuurDLG.c(188): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "value"  (declared at line 192)
         switch(NCode) {
         ^
-RTE\Graphics\TemperatuurDLG.c(206): warning:  #546-D: transfer of control bypasses initialization of:
-            variable "value"  (declared at line 210)
+RTE\Graphics\TemperatuurDLG.c(212): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "value"  (declared at line 216)
         switch(NCode) {
         ^
-RTE\Graphics\TemperatuurDLG.c: 5 warnings, 0 errors
+RTE\Graphics\TemperatuurDLG.c: 6 warnings, 0 errors
+compiling GUI_SingleThread.c...
+.\RTE\CMSIS\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
+  void State_Init();
+.\RTE\CMSIS\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
+  void setSuccessMessage();
+.\RTE\CMSIS\../../util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
+  void handleTemperature();
+.\RTE\CMSIS\../../util.h(19): warning:  #1-D: last line of file ends without a newline
+  } State;
+GUI_SingleThread.c: 4 warnings, 0 errors
 compiling util.c...
 util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
   void State_Init();
 util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
   void setSuccessMessage();
-util.h(18): warning:  #1-D: last line of file ends without a newline
+util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
+  void handleTemperature();
+util.h(19): warning:  #1-D: last line of file ends without a newline
   } State;
 util.c(36): warning:  #68-D: integer conversion resulted in a change of sign
     if (ptrI2C->GetDataCount() != 1) return -1;
 util.c(39): warning:  #68-D: integer conversion resulted in a change of sign
     if (ptrI2C->GetDataCount() != 1) return -1;
-util.c: 5 warnings, 0 errors
+util.c: 6 warnings, 0 errors
 linking...
-Program Size: Code=131264 RO-data=25564 RW-data=9248 ZI-data=42120  
-".\Objects\apnt_268.axf" - 0 Error(s), 17 Warning(s).
+Program Size: Code=131428 RO-data=25564 RW-data=9248 ZI-data=42120  
+".\Objects\apnt_268.axf" - 0 Error(s), 21 Warning(s).
 
 <h2>Software Packages used:</h2>
 

@@ -27,7 +27,8 @@ static uint32_t  exec2;                                         // argument for 
 // Periodic Timer Example
 static void Timer2_Callback (void const *arg) {
   // add user code here
-	 getTemp(&state.temperature);	
+	 getTemp(&state.temperature);
+	 handleTemperature();
 }
  
 // Example: Create and Start timers

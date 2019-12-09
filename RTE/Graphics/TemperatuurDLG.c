@@ -20,6 +20,7 @@
 
 // USER START (Optionally insert additional includes)
 #include "../../util.h"
+#include <stdio.h>
 // USER END
 
 #include "DIALOG.h"
@@ -172,6 +173,11 @@ static void _cbDialog(WM_MESSAGE * pMsg) {
     TEXT_SetText(hItem, "Auto");
     TEXT_SetFont(hItem, GUI_FONT_20_1);
     // USER START (Optionally insert additional code for further widget initialization)
+		
+		//Slider range
+		hItem = WM_GetDialogItem(pMsg->hWin, ID_SLIDER_0);
+		SLIDER_SetRange(hItem, 10, 35); //set the range
+		
     // USER END
     break;
   case WM_NOTIFY_PARENT:
