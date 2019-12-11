@@ -15,7 +15,6 @@ static uint32_t  exec1;                                         // argument for 
 
 // One-Shoot Timer Function
 static void Timer1_Callback (void const *arg) {
-  // add user code here
 }
  
 /*----- Periodic Timer Example -----*/
@@ -39,8 +38,8 @@ int Init_Timers (void) {
   exec1 = 1;
   tim_id1 = osTimerNew ((osTimerFunc_t)&Timer1_Callback, osTimerOnce, &exec1, NULL);
   if (tim_id1 != NULL) {    // One-shot timer created
-    // start timer with delay 100ms
-    status = osTimerStart (tim_id1, 100);            
+    // start timer with delay 5000ms
+    status = osTimerStart (tim_id1, 5000);            
     if (status != osOK) {
       return -1;
     }

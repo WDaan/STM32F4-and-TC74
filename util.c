@@ -6,6 +6,9 @@
 #include "Driver_I2C.h"
 #include "dialog.h"
 #include "util.h"
+#include "USBH_MSC.h" 
+
+
 #define TEMP_ADDRESS 0x48
 #define _I2C_Driver_(n)  Driver_I2C##n
 #define  I2C_Driver_(n) _I2C_Driver_(n)
@@ -46,7 +49,54 @@ void handleTemperature(){
 	}else if(state.fan_mode == 0 && state.temperature < state.desired){ //too cold || good
 		setFanState(0);
 	}
-};
+}
+
+void readUSB(){
+	static unsigned int result; 
+	static FILE *f;
+	char fbuf[200] = { 0 };	
+	
+	result = USBH_MSC_DriveMount ("U0:"); 
+		if (result == USBH_MSC_OK) { 
+			f = fopen ("test.txt", "r"); 
+			if (f) { 
+				fread (fbuf, sizeof (fbuf), 1, f); 
+				fclose (f); 
+			} 
+		}
+		setInfoMessage(fbuf);
+}
+
+char buf[250] = {0};
+
+void writeLog(){
+	//prepare string to write
+
+  char fanState[8] = {0};
+  char fanMode[8] = {0};
+  if(state.fan_mode == 0){ sprintf(fanMode, "%s", "AUTO"); }
+  else {    sprintf(fanMode, "%s", "MANUAL"); }
+  if(state.fan_state == 0) { sprintf(fanState, "%s", "OFF"); }
+  else { sprintf(fanState, "%s", "ON"); }
+	
+  sprintf(buf, "Temperature: %d - Fanstate: %s - Fanmode: %s - Desired Temperature: %d\r\n", state.temperature, fanState, fanMode, state.desired);
+	//
+	
+	static unsigned int result; 
+	static FILE *f;
+	
+	result = USBH_MSC_DriveMount("U0:"); 
+		if (result == USBH_MSC_OK) { 
+			f = fopen("test.txt", "a"); 
+			if (f) { 
+				fwrite(buf, strlen(buf), 1, f);
+				fclose(f);
+				setInfoMessage("Logged succesfully");				
+			} 
+		} else {
+			setInfoMessage("LOG FAILED");
+		}
+}
 
 void setTextInt(TEXT_Handle hObj, const uint8_t val){
 	char str[12];
@@ -65,11 +115,12 @@ void setSuccessMessage(){
 }
 
 
-void setFanState(uint8_t state){
+void setFanState(uint8_t status){
+	state.fan_state = status;
 	WM_HWIN hItem = WM_GetDialogItem(MainhWin, 0x808);
-	if(state == 1){ //ON
+	if(status == 1){ //ON
 		TEXT_SetText(hItem, "ON");
-	}else if(state == 0){ //OFF{
+	}else if(status == 0){ //OFF{
 		TEXT_SetText(hItem, "OFF");
 	}
 }

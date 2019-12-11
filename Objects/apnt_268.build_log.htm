@@ -27,46 +27,6 @@ Project File Date:  12/09/2019
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling Timer.c...
-util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
-  void State_Init();
-util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
-  void setSuccessMessage();
-util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
-  void handleTemperature();
-util.h(19): warning:  #1-D: last line of file ends without a newline
-  } State;
-Timer.c(4): warning:  #177-D: variable "timer_cnt"  was declared but never referenced
-   static int timer_cnt = 0;
-Timer.c: 5 warnings, 0 errors
-compiling TemperatuurDLG.c...
-RTE\Graphics\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
-  void State_Init();
-RTE\Graphics\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
-  void setSuccessMessage();
-RTE\Graphics\../../util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
-  void handleTemperature();
-RTE\Graphics\../../util.h(19): warning:  #1-D: last line of file ends without a newline
-  } State;
-RTE\Graphics\TemperatuurDLG.c(188): warning:  #546-D: transfer of control bypasses initialization of:
-            variable "value"  (declared at line 192)
-        switch(NCode) {
-        ^
-RTE\Graphics\TemperatuurDLG.c(212): warning:  #546-D: transfer of control bypasses initialization of:
-            variable "value"  (declared at line 216)
-        switch(NCode) {
-        ^
-RTE\Graphics\TemperatuurDLG.c: 6 warnings, 0 errors
-compiling GUI_SingleThread.c...
-.\RTE\CMSIS\../../util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
-  void State_Init();
-.\RTE\CMSIS\../../util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give arg types
-  void setSuccessMessage();
-.\RTE\CMSIS\../../util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
-  void handleTemperature();
-.\RTE\CMSIS\../../util.h(19): warning:  #1-D: last line of file ends without a newline
-  } State;
-GUI_SingleThread.c: 4 warnings, 0 errors
 compiling util.c...
 util.h(8): warning:  #1295-D: Deprecated declaration State_Init - give arg types
   void State_Init();
@@ -74,16 +34,20 @@ util.h(11): warning:  #1295-D: Deprecated declaration setSuccessMessage - give a
   void setSuccessMessage();
 util.h(12): warning:  #1295-D: Deprecated declaration handleTemperature - give arg types
   void handleTemperature();
-util.h(19): warning:  #1-D: last line of file ends without a newline
+util.h(13): warning:  #1295-D: Deprecated declaration readUSB - give arg types
+  void readUSB();
+util.h(14): warning:  #1295-D: Deprecated declaration writeLog - give arg types
+  void writeLog();
+util.h(21): warning:  #1-D: last line of file ends without a newline
   } State;
-util.c(36): warning:  #68-D: integer conversion resulted in a change of sign
-    if (ptrI2C->GetDataCount() != 1) return -1;
 util.c(39): warning:  #68-D: integer conversion resulted in a change of sign
     if (ptrI2C->GetDataCount() != 1) return -1;
-util.c: 6 warnings, 0 errors
+util.c(42): warning:  #68-D: integer conversion resulted in a change of sign
+    if (ptrI2C->GetDataCount() != 1) return -1;
+util.c: 8 warnings, 0 errors
 linking...
-Program Size: Code=131428 RO-data=25564 RW-data=9248 ZI-data=42120  
-".\Objects\apnt_268.axf" - 0 Error(s), 21 Warning(s).
+Program Size: Code=130808 RO-data=25640 RW-data=9256 ZI-data=42176  
+".\Objects\apnt_268.axf" - 0 Error(s), 8 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -191,20 +155,20 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.3.0
 
    * Component: ARM::CMSIS:RTOS2:Keil RTX5:Library:5.5.1
+      Source file:   CMSIS\RTOS2\RTX\Template\svc_user.c
+      Source file:   CMSIS\RTOS2\RTX\Config\RTX_Config.c
+      Include file:  CMSIS\RTOS2\RTX\Include\rtx_os.h
+      Source file:   CMSIS\RTOS2\RTX\Template\Thread.c
+      Include file:  CMSIS\RTOS2\RTX\Config\RTX_Config.h
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_lib.c
+      Source file:   CMSIS\RTOS2\RTX\Template\main.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Events.c
       Source file:   CMSIS\RTOS2\RTX\Template\Semaphore.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Timer.c
+      Library file:  CMSIS\RTOS2\RTX\Library\ARM\RTX_CM4F.lib
       Source file:   CMSIS\RTOS2\RTX\Template\MemPool.c
       Source file:   CMSIS\RTOS2\RTX\Template\MsgQueue.c
-      Source file:   CMSIS\RTOS2\RTX\Template\Timer.c
-      Source file:   CMSIS\RTOS2\RTX\Template\svc_user.c
       Source file:   CMSIS\RTOS2\RTX\Template\Mutex.c
-      Source file:   CMSIS\RTOS2\RTX\Template\main.c
-      Source file:   CMSIS\RTOS2\RTX\Config\RTX_Config.c
-      Source file:   CMSIS\RTOS2\RTX\Source\rtx_lib.c
-      Source file:   CMSIS\RTOS2\RTX\Template\Thread.c
-      Source file:   CMSIS\RTOS2\RTX\Template\Events.c
-      Library file:  CMSIS\RTOS2\RTX\Library\ARM\RTX_CM4F.lib
-      Include file:  CMSIS\RTOS2\RTX\Include\rtx_os.h
-      Include file:  CMSIS\RTOS2\RTX\Config\RTX_Config.h
 
    * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
       Include file:  Config\EventRecorderConf.h
@@ -224,8 +188,8 @@ Package Vendor: Keil
       Source file:   FileSystem\Config\FS_Config_USB.h
 
    * Component: Keil.MDK-Pro::USB:CORE:Release:6.13.6
-      Library file:  USB\Lib\ARM\USB_CM3_L.lib
       Include file:  USB\Include\rl_usb.h
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
 
    * Component: Keil.MDK-Pro::USB:Host:6.13.6
       Source file:   USB\Config\USBH_Config.c
@@ -251,30 +215,30 @@ Package Vendor: Keil
       Source file:   CMSIS\Driver\SPI_STM32F4xx.c
 
    * Component: Keil::CMSIS Driver:USB Host:High-speed:2.22
-      Source file:   CMSIS\Driver\OTG_HS_STM32F4xx.c
       Source file:   CMSIS\Driver\USBH_HS_STM32F4xx.c
+      Source file:   CMSIS\Driver\OTG_HS_STM32F4xx.c
 
    * Component: Keil::Device:STM32Cube Framework:Classic:1.7.6
-      Source file:   MDK\Templates\Src\main.c
+      Include file:  MDK\Templates_LL\Inc\main.h
       Include file:  MDK\Templates\Inc\main.h
       Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Source file:   MDK\Templates_LL\Src\main.c
       Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
-      Include file:  MDK\Templates_LL\Inc\main.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\main.c
       Include file:  CMSIS\Driver\Config\RTE_Device.h
       Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
-      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
-      Source file:   MDK\Templates_LL\Src\main.c
 
    * Component: Keil::Device:STM32Cube HAL:Common:1.7.6
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
       Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
    * Component: Keil::Device:STM32Cube HAL:Cortex:1.7.6
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
    * Component: Keil::Device:STM32Cube HAL:DMA:1.7.6
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
    * Component: Keil::Device:STM32Cube HAL:DMA2D:1.7.6
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c
@@ -290,20 +254,20 @@ Package Vendor: Keil
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c
 
    * Component: Keil::Device:STM32Cube HAL:PWR:1.7.6
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
    * Component: Keil::Device:STM32Cube HAL:RCC:1.7.6
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
    * Component: Keil::Device:STM32Cube HAL:SPI:1.7.6
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
    * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
       Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
       Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f429xx.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
 
@@ -311,19 +275,19 @@ Package Vendor: Keil
       Source file:   MDK\Boards\ST\STM32F429I-Discovery\Common\LCDConf.c
 
    * Component: Segger.MDK-Plus::Graphics:CORE:5.50.0
-      Source file:   emWin\Sample\Template\RTOS2\GUI_SingleThread.c
-      Source file:   emWin\Sample\Template\RTOS2\GUI_TemplateThread.c
-      Include file:  emWin\Include\GUI.h
       Source file:   emWin\Sample\Config\GUIConf.c
-      Source file:   emWin\Sample\GUI_X\GUI_X_RTE.c
-      Library file:  emWin\Lib\ARM\GUI_CM4F_L.lib
       Source file:   emWin\Sample\Template\RTOS2\GUI_MultiThread.c
+      Library file:  emWin\Lib\ARM\GUI_CM4F_L.lib
+      Source file:   emWin\Sample\Template\RTOS2\GUI_SingleThread.c
+      Include file:  emWin\Include\GUI.h
+      Source file:   emWin\Sample\GUI_X\GUI_X_RTE.c
+      Source file:   emWin\Sample\Template\RTOS2\GUI_TemplateThread.c
 
    * Component: Segger.MDK-Plus::Graphics:Input Device:Touchscreen:5.50.0
       Source file:   emWin\Sample\GUI_X\GUI_X_Touch.c
 
    * Component: Segger.MDK-Plus::Graphics:Tools:GUI Builder:5.50.0
-Build Time Elapsed:  00:00:07
+Build Time Elapsed:  00:00:10
 </pre>
 </body>
 </html>
